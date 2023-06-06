@@ -1,0 +1,27 @@
+
+.validation{
+  width: 250px;
+  height: 86px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+
+
+.val-li{
+  width: 250px;
+  height: 21px;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 30px;
+  font-size: 15px;
+  background: url(validation_icon.png) no-repeat 16px #ccc; 
+}
+
+.val-link{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-left: 28px;
+}

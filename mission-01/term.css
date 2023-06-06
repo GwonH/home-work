@@ -1,0 +1,37 @@
+h1 {
+  font-size: 15px;
+  margin: 0;
+}
+dd {
+  margin: 0;
+}
+.box-one {
+  background: linear-gradient(to bottom, #ccc, #ececec);
+  width: 216px;
+  height: 225px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.firstImg {
+  float:left;
+  margin-right: 16px;
+}
+
+.title{
+  color: #2e78ae;
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.desc{
+  font-size: 12px;
+}
+
+.secondImg{
+  float:right;
+  margin-left: 16px;
+}
+
