@@ -1,0 +1,76 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+* {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 14px;
+}
+
+.news {
+  display: grid;
+  padding: 10px;
+  gap: 8px;
+  width: 380px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
+.newsHeading {
+  color: #ED552F;
+  grid-area: 1 / 1 / 2 / 3;
+  margin: 0;
+}
+
+.moreInfo {
+  display: flex;
+  gap: 4px;
+  grid-area: 1 / 10 / 2 / 12;
+}
+
+.moreInfoLink {
+  text-decoration: none;
+  color: black;
+}
+
+.fakeLine {
+  height: 1px;
+  width: 266px;
+  background: linear-gradient(to right, #A9A9A9, #fff);
+  grid-area: 2 / 1 / 2 / 9;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  grid-area: 3 / 1 / 4 / 12;
+}
+
+.articleFig {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 112px;
+  height: 103px;
+  grid-area: 3 / 1 / 4 / 5;
+  top: 5px;
+}
+
+.title {
+  margin-bottom: 4px;
+}
+
+figcaption {
+  position: absolute;
+   top: 90px;
+}
+
+.articleSubTxt {
+  margin-top: 12px;
+  text-align: justify;
+  width: 251px;
+}
+
+
+
